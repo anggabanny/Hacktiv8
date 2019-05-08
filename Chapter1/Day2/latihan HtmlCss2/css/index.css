@@ -1,0 +1,118 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.container{
+	width: auto;
+	height: auto;
+}
+
+.kiri{
+	background-image: url(../img/bgindex1.jpg);
+	background-repeat: no-repeat;
+	height: 792px; 
+	width : 682px;
+	float: left;
+}
+
+
+.kanan {
+	background-image: url(../img/bgindex2.png);
+	background-repeat: no-repeat;
+	margin-left: 155px;
+	height: 792px; 
+	width : 682px;
+	float: left;
+}
+
+.tengah{
+	background-image: url(../img/bgindex3.png);
+	background-repeat: no-repeat;
+	left: 520px;
+	height: 792px; 
+	width : 682px;
+	position: absolute;
+	float: left;
+}
+
+.shadowbg {
+	background-image: url(../img/indexshadow.png);
+	background-repeat: no-repeat;
+	height: 790px; 
+	width : 1519px;
+	position: absolute;
+	float: left;
+}
+
+
+
+.logomargin{
+	padding: 20px;
+	position: absolute;
+	margin-left: 476px;
+	margin-top: 183px;
+}
+
+.login{
+	font-family: "montserrat",sans-serif;
+	margin-top: 5px;
+	margin-left: 0px;
+	height: 40px;
+	width: 250px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #808080;
+	color: white;
+	position: absolute;
+	float: left;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.login:hover{
+	width: 480px;
+	background-color: #1a1a1a;
+
+
+}
+		
+.daftar{
+	font-family: "montserrat",sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 40px;
+	width: 250px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #0076ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s;
+	position: absolute;
+	float: left;
+}
+		
+.daftar:hover{
+	width: 480px;
+	background-color: #f72c2c;
+	color: black;
+}
+
+.buttonmasuk{
+	padding: 20px;
+	position: absolute;
+	margin-left: 478px;
+	margin-top: 400px;
+}
+
+.buttonregister{
+	padding: 20px;
+	position: absolute;
+	margin-left: 478px;
+	margin-top: 430px;
+}
+

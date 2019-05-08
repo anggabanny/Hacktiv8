@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Pacifico" rel="stylesheet">
+	
+	<style type="text/css">
+		h1.mendaftar
+			{
+				color: Black;
+				font-size: 50px;
+				font-family: 'Advent Pro', sans-serif;
+				text-align: center;
+				padding-top: 43px;
+			}
+
+		.body
+			{
+			background-image: url(bg1.jpg);
+			height: 550px;
+			width: 400px;
+			border-radius: 20px;
+			/*Margin*/
+			margin-top: 130px;
+			margin-right: 50px ;
+			margin-left: 250px ;
+			margin-bottom: 100px;
+			}
+			
+		.Colom
+			{
+				display: block;
+				width: 300px;
+				height: 36px;
+				text-align: center;
+				box-sizing: border-box;
+				outline: none;
+				border: none;
+				/**/
+				border-radius: 5px;
+				background-color: rgba(0, 0, 0, 0.10);
+				/**/
+				margin-left: 50px;
+				margin-top: 5px;
+			}
+
+		.tgl
+			{
+				padding-left: 140px;
+				font-size: 20px;
+				font-family: 'Advent Pro', sans-serif;
+			}
+
+		.tagl1
+			{
+				margin-left: 80px;
+				width: 50px;
+				height: 25px;
+				border-radius: 8px;
+			}
+
+		.bulan
+			{
+				border-radius: 8px;
+				width: 100px;
+				height: 25px;
+			}
+		
+		.tahun
+			{
+				width: 80px;
+				height: 25px;
+				border-radius: 8px;
+			}
+		.radio
+			{
+				margin-left: 100px; 
+				padding-top: 10px;
+			}
+		.buttonok
+			{
+				font-family: "montserrat",sans-serif;
+				margin-left: 17px;
+				height: 40px;
+				width: 365px;
+				border-radius: 30px;
+				border: none;
+				outline: none;
+				background: #0076ff;
+				color: white;
+				cursor: pointer;
+				transition: 0.8s;
+			}
+		.buttonok:hover{
+			transform: scale(0.99);
+			background-color: red;
+		}
+
+		.reset
+			{
+				font-family: "montserrat",sans-serif;
+				margin-top: 2px;
+				margin-left: 83px;
+				height: 25px;
+				width: 230px;
+				border-radius: 30px;
+				border: none;
+				outline: none;
+				background: #0076ff;
+				color: white;
+				cursor: pointer;
+				transition: 0.8s;
+				
+			}
+		.reset:hover{
+			transform: scale(0.99);
+			background-color: red;
+		}
+
+		.bawah
+			{
+				text-align: center;
+				text-decoration: none;
+				font-family: "montserrat",sans-serif;
+				
+				font-size: 15px;
+				transform: 0.10s;
+				display: block;
+				padding: 10px;
+				margin-right: 20px;
+				margin-left: 20px;
+				margin-top: 5px;
+			}
+		.bawah:hover{
+			background: rgba(0,0,0,0.3);
+			transform: scale(0.90);
+		}
+
+		.bawah1
+			{
+				text-align: center;
+				text-decoration: none;
+				font-family: "montserrat",sans-serif;
+				font-size: 15px;
+				transform: 0.10s;
+				display: block;
+				padding: 7px;
+				margin-right: 20px;
+				margin-left: 20px;
+			}
+		.bawah1:hover{
+			background: rgba(255,127,0,0.9);
+			transform: scale(0.90);
+		}
+
+	</style>
+</head>
+<body background="signupcat.jpg">
+	<form action="../Welcome/welcome.html">
+	<div class="body">
+		<h1 class="mendaftar">SignUp</h1>
+
+	   	 <input type="text" class="Colom" name="nama" placeholder="Username" value="" required="">
+		 <input type="email" class="Colom" name="email" placeholder="@gmail.com" value="" required="">
+		 <input type="password" class="Colom" name="" placeholder="password" value="" required="">
+	<div><h3 class="tgl"> Tanggal Lahir </h3></div>
+		<select name="tanggal" class="tagl1">
+			<option value="tanggal1">1</option>
+			<option value="tanggal2">2</option>
+			<option value="tanggal3">3</option>
+			<option value="tanggal4">4</option>
+			<option value="tanggal5">5</option>
+			<option value="tanggal6">6</option>
+			<option value="tanggal7">7</option>
+			<option value="tanggal8">8</option>
+			<option value="tanggal9">9</option>
+			<option value="tanggal10">10</option>
+			<option value="tanggal11">11</option>
+			<option value="tanggal12">12</option>
+			<option value="tanggal13">13</option>
+			<option value="tanggal14">14</option>
+			<option value="tanggal15">15</option>
+			<option value="tanggal16">16</option>
+			<option value="tanggal17">17</option>
+			<option value="tanggal18">18</option>
+			<option value="tanggal19">19</option>
+			<option value="tanggal20">20</option>
+			<option value="tanggal21">21</option>
+			<option value="tanggal22">22</option>
+			<option value="tanggal23">23</option>
+			<option value="tanggal24">24</option>
+			<option value="tanggal25">25</option>
+			<option value="tanggal26">26</option>
+			<option value="tanggal27">27</option>
+			<option value="tanggal28">28</option>
+			<option value="tanggal29">29</option>
+			<option value="tanggal30">30</option>
+			<option value="tanggal31">31</option>
+		</select>
+		<select name="bulan" class="bulan" required="">
+			<option value="jan">Januari</option>
+			<option value="feb">Februari</option>
+			<option value="maret">Maret</option>
+			<option value="april">April</option>
+			<option value="mei">Mei</option>
+			<option value="jun">Juni</option>
+			<option value="jul">Juli</option>
+			<option value="agust">Agustus</option>
+			<option value="sept">September</option>
+			<option value="okto">Oktober</option>
+			<option value="nov">November</option>
+			<option value="des">Desember</option>
+		</select>
+		<select name="tahun" class="tahun" required="">
+			<option value="18">2018</option>
+			<option value="17">2017</option>
+			<option value="16">2016</option>
+			<option value="15">2015</option>
+			<option value="14">2014</option>
+			<option value="13">2013</option>
+			<option value="12">2012</option>
+			<option value="11">2011</option>
+			<option value="10">2010</option>
+			<option value="9">2009</option>
+			<option value="8">2008</option>
+			<option value="7">2007</option>
+			<option value="6">2006</option>
+			<option value="5">2005</option>
+			<option value="4">2004</option>
+			<option value="3">2003</option>
+			<option value="2">2002</option>
+			<option value="1">2001</option>
+			<option value="00">2000</option>
+			<option value="99">1999</option>
+		</select>
+			<br>
+		<div class="radio" required="">
+			<input type="radio" name="jeniskelamin" value="pria" > Pria
+			<input type="radio" name="jeniskelamin" value="wanita" > Wanita
+			<input type="radio" name="jeniskelamin" value="other" > Other
+		</div>
+			<br>
+		<a href="welcome.html">
+			<button type="submit" class="buttonok" value="Create Account">Create Account</button>
+		</a>
+		<button type="reset" class="reset" value="reset">Reset</button>
+		<br>
+		<a href="../index.html" class="bawah">Back</a>
+		<a href="../Welcome/welcome.html" class="bawah1">Masuk</a>
+
+
+	</div>
+	<input type="submit" value="submit">
+</form>
+
+</body>
+</html>

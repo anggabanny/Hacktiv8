@@ -1,0 +1,30 @@
+cd (nama folder)				> untuk masuk
+cd 						> untuk keluar
+buat repository 				> buat kepala servernya dulu
+git clone 					> mengclone data yg ada di repo
+ls 						> cek list yang ada di direktori	
+git add .					> untuk mengkonfirmasi data yng telah diubah
+git status					> cek file yang sudah di ubah dan siap di beri commit
+git commit -m 'masukkan apa aja'		> untuk memasukan commit
+git push origin master				> memindahkan data dari lokal ke server
+git pull origin master 				> memindahkan data dari server ke local
+git log 					> cek komit yang udh di add
+git log --oneline 				> sama aja kaya yg atas cuma di peringkas
+git checkout (nomor log) -- (namafile)		> berpindah pindah log
+git reset --hard (nomor log) 			> menghapus log di terminal dan code editor
+git reset --mixed (nomor log)			> menghapus log di terminal
+git branch					> untuk cek kita di branch apa
+git branch (buatnamabranch)			> untuk membuat branch baru
+git checkout -b (namabranch)			> untuk pindah branch dan langsung membuat branch baru
+git checkout (namabranch)			> untuk pindah branch (switching)
+git branch -D (namabranch)			> untuk menghapus branch
+git branch -m (namabranch) (namabranch baru)	> untuk merename branch
+git merge (namabranch)				> untuk memasukkan data yang sudah diubah dibranch tertentu ke master
+git mkdir (nama file/folder)			> membuat file baru
+
+
+
+oh my zsh
+git-scm.com
+
+-------------------------------------------------------------------------

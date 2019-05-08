@@ -1,0 +1,148 @@
+body{
+	background: url(../img/bgutama.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1.mendaftar{
+	color: Black;
+	font-size: 50px;
+	font-family: 'Advent Pro', sans-serif;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.logo1{
+	position: absolute;
+	display: none;
+}
+
+.body{
+	background-image: url('../img/bgform.jpg');
+	position: fixed;
+	height: 600px;
+	width: 600px;
+	border-radius: 20px;
+	/*Margin*/
+	margin-top: 180px;
+	margin-right: 0px ;
+	margin-left: 1280px ;
+	margin-bottom: 100px;
+}
+			
+.Colom{
+	display: block;
+	width: 500px;
+	height: 36px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	/**/
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.10);
+	/**/
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.tgl{
+	padding-left: 250px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+.tagl1{
+	margin-left: 170px;
+	width: 75px;
+	height: 25px;
+	border-radius: 8px;
+}
+
+.bulan{
+	border-radius: 8px;
+	width: 100px;
+	height: 25px;
+}
+		
+.tahun{
+	width: 80px;
+	height: 25px;
+	border-radius: 8px;
+}
+		
+.radio{
+	margin-left: 205px; 
+	padding-top: 10px;
+}
+		
+.buttonok{
+	font-family: "montserrat",sans-serif;
+	margin-left: 125px;
+	height: 40px;
+	width: 365px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #0076ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.buttonok:hover{
+	transform: scale(0.99);
+	background-color: red;
+}
+
+.reset{
+	font-family: "montserrat",sans-serif;
+	margin-top: 6px;
+	margin-left: 190px;
+	height: 35px;
+	width: 230px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #0076ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.reset:hover{
+	transform: scale(0.99);
+	background-color: red;
+}
+
+.bawah{
+	text-align: center;
+	text-decoration: none;
+	font-family: "montserrat",sans-serif;			
+	font-size: 15px;
+	transform: 0.10s;
+	display: block;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.bawah:hover{
+	background: rgba(0,0,0,0.3);
+	transform: scale(0.90);
+		}
+
+.bawah1{
+	text-align: center;
+	text-decoration: none;
+	font-family: "montserrat",sans-serif;
+	font-size: 15px;
+	transform: 0.10s;
+	display: block;
+	padding: 7px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.bawah1:hover{
+	background: rgba(255,127,0,0.9);
+	transform: scale(0.90);
+}

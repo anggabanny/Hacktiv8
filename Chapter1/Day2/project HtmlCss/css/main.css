@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/prism.png);
+}
+
+.hack{
+	margin-left: 660px;
+	margin-top: 200px;
+	height: 200px;
+}
+
+.logout{
+	font-family: "montserrat",sans-serif;
+	margin-top: 5px;
+	margin-left: 575px;
+	height: 40px;
+	width: 365px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #0076ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s;
+}
+		
+.logout:hover{
+	transform: scale(0.99);
+	background-color: orange;
+	color: black;
+}
+		
+.open{
+	margin-left: 670px;
+	font-size: ;
+	font-family:"montserrat",sans-serif;
+	color: white;
+}
+
+.dropdown1{
+	position: relative;
+	display: inline-block;
+	font-family: "montserrat",sans-serif;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background-color: rgba(225, 51, 0, 0.9);
+	height: 100px;
+	width: 200px;
+	color: white;
+	transition: 0.7s;
+}
+
+
+.dropdownmain{
+	position: relative;
+	display: inline-block;
+	margin-left: 500px;
+}
+
+.content{
+	position: absolute;
+	background-color: #007777;
+	min-width: 150px;
+	z-index: 1;
+	display: none;
+}
+
+.content a{
+	color: white;
+	padding: 10px 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.content a:hover {
+	background-color: red;
+}
+
+.dropdownmain:hover .dropdown1{
+	background-color: #007777;
+
+}
+
+.dropdownmain:hover .content{
+	display:;
+}
+
+.logoatas{
+	background-size: 20%;
+	background-image: url(../img/maze.png);
+	border-top: 5px solid #cd0000;
+	border-bottom: 4px solid #007777;
+	border-right: 4px solid #ffffe0;
+	margin-left: -210px;
+	margin-top: -10px;
+	border-radius: 10px;
+	padding: 13px;
+	padding-left: 30px;
+}
+
+.body{
+	background-color: #fff0f5;
+	height: 50px;
+	width: 1200px;
+	border-radius: 20px;
+	border-right: 5px solid #ffffe0;
+	border-top: 5px solid #ffffe0;
+	border-bottom: 4px solid #ffffe0;
+	margin-left: 200px; 
+	margin-top: -140px;
+	box-shadow: 3px 5px 50px;
+}
+
+#bodylogo, .body{
+	position: fixed;
+}
+
+/*....................*/
+
+.tableisi{
+	background-color: white;
+	width: 1350px;
+	height: 1000px;
+	margin-top: 150px;
+	margin-left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 5px 50px;
+	border-bottom: 5px solid #007777;
+	border-top: 5px solid #cd0000;
+}
+
+.gambar {
+	height: 800px;
+	margin-left: 34px;
+	margin-top: 40px;
+	border-radius: 10px;
+
+}
+
+#cap{
+	font-family: montserrat,sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+/*footer*/
+
+.footer{
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 30px;
+	color: black;
+	text-align: center;
+	border-top: 3px solid #cd0000;
+	border-bottom: 3px solid #007777;
+	margin-top: 10px;
+	padding-top: 20px;

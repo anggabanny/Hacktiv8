@@ -1,0 +1,119 @@
+1 sd 20
+
+STORE number = 0
+
+WHILE number lower than 21
+
+IF number 20
+	DO "STOP!"
+ELSE
+	DO "number +1"
+-----------------------------------
+1 sd 20
+
+STORE number = 0
+
+WHILE number lower than 21
+DISPLAY number +1
+---------------------------------
+
+WITHOUT
+WHILE
+DISPLAY
+IF
+FALSE
+ELSE IF
+ELSE
+STORE
+CALCULATE
+more than (>)
+lower than (<)
+AND
+OR
+
+---------------------------------
+
+20km
+2-5km
+4-7km
+1-2km
+
+-----------------------------
+EXERCISE
+KODE.ID
+PSEUDOCODE
+
+
+STORE "merge" max number = 4
+(STOREspd) speed number 20
+ADD ="number" merge to max number
+IF number = 2
+ 	DO DISPLAY (STOREspd) - 5 = X
+else IF number = 3
+	DO DISPLAY (STOREspd) - 7 = X
+FALSE
+	DO DISPLAY (STOREspd) - 2 = X
+
+(X) = DISPLAY NUMBER
+==================================== ATAU
+STORE maxspeed equals to 20
+STORE passanger without value
+STORE result without value
+
+IF passenger < 4
+	IF passenger > 2 AND < 4
+		CALCULATE result = maxSpeed -5
+		DISPLAY result
+
+	ELSE IF passenger 4
+		CALCULATE result = maxSpeed -7
+		DISPLAY result
+
+	ELSE IF passenger more than 0
+		CALCULATE result = maxSpeed -2
+		DISPLAY result
+
+	ELSE
+		DISPLAY maxspeed
+
+DO NEXT
+=================================== TRUE
+
+EXERCISE 1
+--------------------
+STORE Nilai(n) without value
+IF (n) < 101
+	IF (n) > 80 AND < 101
+		DISPLAY 'LULUS'
+
+	ELSE IF (n) < 60 AND > 0
+		DISPLAY 'REMEDIAL'
+
+	ELSE IF (n) < 80 AND > 65
+		DISPLAY 'LULUS BERSYARAT'
+
+	ELSE
+		DISPLAY none;
+===============================
+STORE number = 1
+
+WHILE number < 31
+
+	IF number = ganjil AND < 15
+		DISPLAY "odd"
+
+	IF number = ganjil AND > 15
+		DISPLAY "odd"
+	ELSE
+		DISPLAY "NEXT"
+	number + 1
+
+NEXT
+===============================
+NLAINY (STORE)
+
+KONDISI (IF)
+LOOPING (WHILE)
+========================
+hackerrank
+codewars

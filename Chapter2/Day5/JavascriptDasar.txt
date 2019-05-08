@@ -1,0 +1,89 @@
+ESCAPE CHARACTER
+
+'' < "" < `` atau menggunakan \
+`"hari ini ada gerakan pemuda" pada hari juam'at`
+atau
+"\"hari ini ada gerakan pemuda\" pada hari juam'at"
+
+\n	untuk baris baru
+\t	untuk TAB
+\b	untuk backspace
+\uxxx	UNICODE
+\0	NULL
+------------------------- 
+var		= variabel
+typeof		= cara mengetahui tipe data
+console.log	= debugging
+--------------------------
+if
+console.log
+
+undefined
+null
+false
+
+true
+
+default
+
+('')
+-------------------
+cara penuisan
+
+var angka = 5;
+
+if(angka == 5) {
+	console.log("benar")
+}
+ ----------------------
+menggunakan terminal
+
+node namafile
+
+-----------------------------
+aritmatika
++ tambah
+- kurang
+* kali
+/ bagi
+% sisa bagi
+
+KuKaBaTaKu
+()*/+-
+
++=	angka ditambah dengan
+-=	angka dikurang dengan
+*=	angka dikali dengan
+/=	angka dibagi dengan
+%=	angka disisabagi dengan
+
+-----------------------
+
+&&	AND/DAN
+||	OR/ATAU
+!	NOT/TIDAK
+
+----------------------
+.length		untuk menghitung jumlah huruf atau angka pada variable
+----------------------
+deklarasi variabel
+
+var
+let
+const
+-----------------
+POP UP BOX
+
+alert
+promt
+confirm
+--------------
+PENGULANGAN
+
+for
+while
+do while
+
+------------
+parseInt mengubah inputan jadi integer
+\n buat enter

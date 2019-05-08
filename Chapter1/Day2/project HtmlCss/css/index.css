@@ -1,0 +1,162 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	
+}
+
+.contain{
+	position: fixed;
+	margin : 0 ;
+	height: 100%;
+	width: 100%;
+	background-color:black;
+}
+
+.bg{
+	height: 100%;
+	position: relative;
+	background-image: url('../img/bg.jpg');
+	animation: fadein 7.0s ease-in;
+}
+@keyframes fadein{
+	0%  {opacity: 0;}
+  25%  {opacity: 100;}
+  50%  {opacity: 0;}
+  75%  {}
+  100% {opacity: 100;}
+}
+
+.header{
+	height: 50px;
+	width: 700px;
+}
+.logo{ 
+	height:;
+	width: ;
+	position: absolute;
+	margin-top:15px;
+	margin-left: 10px;
+	padding:0px;
+
+}
+
+.logomargin{
+	padding: 20px;
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 260px;
+}
+
+.login{
+	font-family: "montserrat",sans-serif;
+	margin-top: 5px;
+	margin-left: 0px;
+	height: 40px;
+	width: 100px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #808080;
+	color: white;
+	position: absolute;
+	transition: 0.8s;
+	cursor: pointer;
+}
+
+.login:hover{
+	width: 200px;
+	background-color: #1a1a1a;
+}
+
+.daftar:hover{
+	width: 267px;
+	background-color: #1a1a1a;
+}
+		
+.daftar{
+	font-family: "montserrat",sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 40px;
+	width: 150px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #0076ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s;
+	position: absolute;
+}
+
+.buttonmasuk{
+	position: absolute;
+	margin-left: 1590px;
+	margin-top: -45px;
+}
+
+.buttonregister{
+	position: absolute;
+	margin-left: 1430px;
+	margin-top: -58px;
+}
+
+/* NAVBAR */
+.dropdown {
+	margin-top: 11px;
+	margin-left: 1800px;
+	float: left;
+	overflow: hidden;
+	transition: 0.8s;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	transition: 0.8s;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(102, 0, 0);
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-width: 190px;
+	margin-left: -100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	transition: 0.8s;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+	transition: 1.0s;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: rgb(102, 0, 0);
+	color: white;
+	
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+
+}
