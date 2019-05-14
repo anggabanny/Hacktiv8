@@ -1,18 +1,24 @@
 function convert (data) {
     // Your code here
-var temp = []
+    var temp = []
+        if(data.length !== 0){
     for(i=0;i<data.length;i++){
-        var tampil = {}
-        tampil.id = data[i][0]
-        tampil.firstname = data[i][1]
-        tampil.lastName = data[i][2]
-        tampil.email = data[i][3]
-        
-        temp.push(tampil)
+        var tampil = {
+            id: 0,
+            firstName: '',
+            lastName: '',
+            email:''
+        }
+        var j = 0;
+        for(key in tampil){
+        tampil[key] += data[i][j]
+        j++
+        }
+    temp.push(tampil)
     }
+}
     return temp
-  }
-  
+}
   // TEST CASES
   console.log(convert([
     [1, 'Dimitri', 'Wahyudiputra', 'dimitri@mail.com'],
